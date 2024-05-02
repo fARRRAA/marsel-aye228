@@ -5,7 +5,7 @@ import { Home } from './pages/Home/Home';
 import { Routes, Route } from 'react-router-dom';
 import { SingleProductPage } from './pages/SingleProductPage/SingleProductPage';
 import { Footer } from './assets/components/Footer/Footer';
-import { About } from './pages/About/About';
+import { About } from './pages/About/About.jsx';
 
 export default function App() {
   return (
