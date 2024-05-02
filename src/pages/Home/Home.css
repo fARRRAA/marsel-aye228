@@ -1,0 +1,86 @@
+.main_page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main__title{
+    font-size: 38px;
+    margin-bottom: 0px;
+}
+.main__text{
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+}
+.main__about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main__slider-btn{
+    height: 100px;
+    text-align: center;
+
+    font-size: 50px;
+    width: 40px;
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+    transition: linear 0.1s;
+}
+.main__slider-btn:hover{
+    transform: scale(1.5);
+}
+.main__slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.main__slider-img{
+    width: 1000px;
+}
+.banner__inner{
+    width: 1200px;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.banner__car__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    padding-left: 40px;
+}
+.banner__nav-link{
+    padding: 20px;
+    margin: 40px;
+    font-size: 30px;
+    border: 3px solid white;
+    color: #fff;
+    font-weight: bold;
+    transition: linear 0.2s; 
+    
+}
+.banner__nav-link:hover{
+   
+border:3px solid rgb(87, 87, 87);
+color: rgb(87, 87, 87);
+}
